@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+   
+    /* font-family: "PT Sans", sans-serif; */
+    /* font-family: "DM Sans", sans-serif; */
+}
+
+
+.h1-algo{
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Playfair Display SC";
+    font-size: 100px;
+    font-weight: 400;
+    padding-top: 50px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+   
+}
+.Arch{
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+   
+}  
+.Arch2{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.88px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top:  10px;
+     
+}
+.bottonProect{
+
+
+top: 708px;
+left: 207px;
+padding: 25px 30px 25px 30px;
+gap: 10px;
+border-radius: 8px 8px 8px 8px;
+opacity: 0px;
+background: #FFFFFF;
+border: #FFFFFF;
+margin-top: 5px;
+width: 330px;
+font-size: 20px;
+
+
+}
+
+
+.div-img {
+    background: url("https://i.ibb.co/FqBRhSq8/residential-brick-house-1.png");
+    /* width: 100vw; */
+    /* height: 90vh; */
+    background-size: cover;
+    height: 40vw;
+    width: 80vw;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 8px 8px 8px 8px;
+    padding-left: 50px;
+    margin: 0 auto;
+}
+.span1{
+    font-size: 120px;
+}
+
+
+
+
+
+
+.title-two {
+    background-color: #FFF2DE;
+    width: 1921px;
+    height: 55px;
+    padding-top: 15px;
+    padding-left: 40px;
+}
+
+
+.technological {
+display: flex;
+
+
+}
+
+
+.picture-tl {
+width: 100%;
+/* top: 31px;
+left: 31px; */
+/* padding: 0.11px 0px 0px 0px; */
+gap: 0px;
+border-radius: 10px;
+opacity: 0px;
+/* margin: 20px; */
+
+
+
+
+
+
+}
+
+
+.img_technological {
+  border: 1px solid #763A0B;
+  border-radius: 30px;
+ padding: 20px;
+ width: 30vw;
+ margin: 10px;
+ 
+}
+
+
+.links {
+    color: #763A0B;
+}
+
+
+
+
+.subtitle3 {
+    width: 600px;
+    height: 49px;
+    top: 2434px;
+    left: 96px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.76px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+#box-title {
+    background: #FFF2DE;
+}
+
+
+.table5 {
+    margin: 0 5vw;
+    /* width: 1506px;
+    height: 644px; */
+    top: 2569px;
+    left: 205px;
+    padding: 0px;
+    box-shadow: 2px 2px 4px 2px #b6b6b6;
+    border-radius: 10px;
+    display: grid;
+    gap: 0px;
+    opacity: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "a b c"
+    "d f f"
+    ;
+}
+
+
+.a { grid-area: a;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #909090;
+}
+.b { grid-area: b;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+    border-color: #909090;
+}
+.c { grid-area: c;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    border-color: #909090;
+}
+.d { grid-area: d;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: #909090;
+}
+.f { grid-area: f;
+    border-width: 0px 0px 0px 1px;
+    border-style: solid;
+    border-color: #909090;
+}
+
